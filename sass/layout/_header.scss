@@ -1,0 +1,65 @@
+@use "../utils/variables" as var;
+@use "../layout/flex";
+header {
+  background-color: var.$text-darkblue;
+  padding: 56px 0;
+  nav {
+    @include flex.flx;
+    .nav-brand {
+      @include flex.flx;
+      #hamburger {
+        display: none;
+        font-size: 30px;
+        color: var.$text-white;
+      }
+    }
+    .nav-menu {
+      @include flex.flx(center, 40px);
+      .nav-menu__link {
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: var.$text-white;
+      }
+      .nav-btn__link {
+        padding: 8px 40px;
+        background-color: var.$text-white;
+        color: var.$text-darkblue;
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        border-radius: 24px;
+      }
+    }
+    @media (max-width: 650px) {
+      & {
+        flex-direction: column;
+        gap: 20px;
+        .nav-brand {
+          width: 100%;
+          #hamburger {
+            display: block;
+          }
+        }
+        .nav-menu {
+          display: none;
+        }
+        .active {
+          display: flex;
+          @media (max-width: 460px) {
+            & {
+              flex-wrap: wrap;
+            }
+          }
+        }
+      }
+    }
+  }
+}
