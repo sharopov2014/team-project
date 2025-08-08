@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #65e4a3;
+}
+
+.about {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #0a2640;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.love {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: #000000;
+  line-height: 72px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.func {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #0a2640;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.worlds {
+  background-color: #65e4a3;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 146px;
+  padding-bottom: 96px;
+}
+
+.our {
+  text-align: center;
+  padding-top: 96px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #0a2640;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding-bottom: 12px;
+}
+
+.hand {
+  padding-bottom: 82px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: #0a2640;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.spa {
+  padding-top: 32px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  color: #0a2640;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.sa {
+  padding-bottom: 32px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 96px;
+  color: #0a2640;
+  line-height: 56px;
+  letter-spacing: 0%;
+  display: block;
+}
+
+.sads {
+  align-items: center;
+}
+
+.sadses {
+  display: flex;
+  align-items: center;
+  gap: 141px;
+  justify-content: center;
+}
+
+.stor {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #fff;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.shake {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 72px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.con {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #f1f1f1;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.our_story__lik {
+  justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+  text-align: center;
+  padding: 120px 0;
+  justify-content: center;
+  background-color: #0a2640;
+}
+
+.str {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #777777;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.shae {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: #000000;
+  line-height: 72px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.cn {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #777777;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.our_story__li {
+  margin-top: 126px;
+  margin-bottom: 56px;
+  padding: 120px 300px;
+}
+
+.mi {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 28px;
+  color: #000000;
+  line-height: 48px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.gen {
+  padding-top: 12px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #777777;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.cards {
+  gap: 75px;
+  display: flex;
+  align-items: center;
+  padding-top: 56px;
+  padding-bottom: 110px;
+}
+
+.our_story__lk {
+  justify-content: center;
+  padding: 120px 300px;
+  background-color: #0a2640;
+}
+
+.an {
+  padding-bottom: 48px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#input {
+  margin-right: 24px;
+  background-color: #fff;
+  padding-left: 32px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #000000;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: 370px;
+  height: 56px;
+  border: none;
+  top: 261px;
+  left: 298px;
+  opacity: 1;
+  border-radius: 240px;
+  border-width: 2px;
+}
+
+#submit {
+  width: 210px;
+  height: 60px;
+  top: 259px;
+  left: 692px;
+  border: none;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  color: #0a2640;
+  background-color: #65e4a3;
+  line-height: 28px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  opacity: 1;
+  gap: 8px;
+  border-radius: 56px;
+  border-width: 2px;
+  padding-top: 16px;
+  padding-right: 56px;
+  padding-bottom: 16px;
+  padding-left: 56px;
+}
+
+.form {
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cardss {
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #0a2640;
+  background-color: #0a2640;
+  width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 124px;
+  padding-top: 72px;
+  height: 391px;
+  border-radius: 12px;
+  border: none;
+}
+
+@media (max-width: 1439px) {
+  #input {
+    margin-bottom: 30px;
+  }
+  .an {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .cardss {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .shake {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .our_story__lk {
+    text-align: center;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .our_story__li {
+    padding: 0;
+  }
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cn {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .shae {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .str {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .sadses {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .worlds {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    gap: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 630px) {
+  .card {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .con {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .shake {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .sa {
+    font-size: 30px;
+    text-align: center;
+    line-height: 36px;
+  }
+  .hand {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .about {
+    font-size: 15px;
+  }
+  .love {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .func {
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+}
