@@ -27,7 +27,7 @@ body {
   padding: 0 20px;
 }
 
-.container2 {
+.container-2 {
   max-width: 1128px;
   margin: 0 auto;
   padding: 0 20px;
@@ -192,5 +192,90 @@ header nav .nav-menu .nav-btn__link {
   }
   .container-1 .footer-brand p {
     width: 100%;
+  }
+}
+.page1 {
+  background-color: rgb(10, 38, 64);
+}
+.page1 .container-2 {
+  padding: 82px 0 83px;
+}
+.page1 .container-2 .text-1 {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.page1 .container-2 .text-1 p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgb(119, 119, 119);
+}
+.page1 .container-2 .text-1 h2 {
+  font-family: Manrope;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  width: 842px;
+  height: 144;
+  opacity: 1;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+}
+.page1 .container-2 .pages {
+  display: flex;
+  gap: 99px;
+}
+.page1 .container-2 .pages form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.page1 .container-2 .pages form .text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.page1 .container-2 .pages form .text p:nth-child(1) {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+}
+.page1 .container-2 .pages form .text p:nth-child(2) {
+  width: 300px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 164px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.page1 .container-2 .pages form .text p:nth-child(2) span {
+  position: absolute;
+  top: 5.7px;
+  left: 142px;
+}
+@media (max-width: 1105px) {
+  .page1 .container-2 .text-1 h2 {
+    width: 100%;
+  }
+  .page1 .container-2 .pages {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

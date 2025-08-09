@@ -1,2 +1,92 @@
-@use "../utils/variables";
+@use "../utils/variables" as var;
 @use "../base/reset";
+
+.page1 {
+  background-color: var.$text-darkblue;
+  .container-2 {
+    padding: 82px 0 83px;
+    .text-1 {
+      display: flex;
+      gap: 12px;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 70px;
+      p {
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: var.$text-lightGrey;
+      }
+      h2 {
+        font-family: Manrope;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        width: 842px;
+        height: 144;
+        opacity: 1;
+        margin: 0 auto;
+        color: var.$text-white;
+      }
+    }
+    .pages {
+      display: flex;
+      gap: 99px;
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        .text {
+          display: flex;
+          flex-direction: column;
+          gap: 28px;
+          & p:nth-child(1) {
+            font-family: Open Sans;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: 0%;
+            color: var.$text-white;
+          }
+          & p:nth-child(2) {
+            width: 300px;
+            font-family: Open Sans;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 36px;
+            letter-spacing: 0%;
+            color: var.$text-white;
+            position: relative;
+            width: 164px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var.$text-white;
+            span {
+              position: absolute;
+              top: 5.7px;
+              left: 142px;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 1105px) {
+      & {
+        .text-1 {
+          h2 {
+            width: 100%;
+          }
+        }
+        .pages {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
